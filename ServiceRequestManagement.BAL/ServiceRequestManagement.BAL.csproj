@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.20.71" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceRequestManagement.DAL\ServiceRequestManagement.DAL.csproj" />
+    <ProjectReference Include="..\ServiceRequestManagement.Models\ServiceRequestManagement.Models.csproj" />
+  </ItemGroup>
+
+</Project>
